@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини-анкета</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Мини-анкета</h1>
+        <div id="loading" class="loading">Загрузка вопросов...</div>
+        <form id="surveyForm" style="display: none;">
+            <div id="questionsContainer"></div>
+            <button type="submit" id="submitBtn">Отправить ответы</button>
+        </form>
+        <div id="thankYouMessage" class="thank-you" style="display: none;">
+            <h2>Спасибо!</h2>
+            <p>Ваши ответы успешно отправлены.</p>
+            <div class="button-group">
+                <button id="retakeBtn" class="btn-secondary">Пройти опрос повторно</button>
+                <button id="viewAnswersBtn" class="btn-secondary">Посмотреть все ответы</button>
+            </div>
+        </div>
+        <div id="previousAnswers" class="previous-answers" style="display: none;">
+            <h2>Предыдущие ответы</h2>
+            <div id="answersList"></div>
+            <div class="button-group">
+                <button id="backToFormBtn" class="btn-secondary">Вернуться к опросу</button>
+            </div>
+        </div>
+        <div id="errorMessage" class="error" style="display: none;"></div>
+        <div class="header-actions" style="display: none;">
+            <button id="viewAllAnswersBtn" class="btn-link">Посмотреть все ответы</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
