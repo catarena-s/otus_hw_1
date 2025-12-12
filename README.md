@@ -97,24 +97,30 @@ Backend будет доступен по адресу: `http://localhost:5000`
 
 ### Главная страница с формой опроса
 
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-  <img src="screenshots/main-form.png" alt="Главная страница" style="max-width: 48%; height: auto;">
-  <img src="screenshots/main-form2.png" alt="Главная страница 2" style="max-width: 48%; height: auto;">
-</div>
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/main-form.png" alt="Главная страница" width="100%" style="height: 400px; object-fit: contain;">
+</td>
+<td width="50%">
+<img src="screenshots/main-form2.png" alt="Главная страница 2" width="100%" style="height: 400px; object-fit: contain;">
+</td>
+</tr>
+</table>
 
-**Форма с вопросами анкеты, готовая к заполнению*
+*Форма с вопросами анкеты, готовая к заполнению*
 
 ### Сообщение после отправки ответов
 
-![Сообщение благодарности](screenshots/thank-you.png)
+<img src="screenshots/thank-you.png" alt="Сообщение благодарности" width="600">
 
-**Экран "Спасибо!" с кнопками для повторного прохождения опроса и просмотра ответов*
+*Экран "Спасибо!" с кнопками для повторного прохождения опроса и просмотра ответов*
 
 ### Просмотр всех сохраненных ответов
 
-![Просмотр ответов](screenshots/previous-answers.png)
+<img src="screenshots/previous-answers.png" alt="Просмотр ответов" width="600">
 
-**Список всех ранее сохраненных ответов с датами и временем отправки*
+*Список всех ранее сохраненных ответов с датами и временем отправки*
 
 # Разработка с использованием AI
 
