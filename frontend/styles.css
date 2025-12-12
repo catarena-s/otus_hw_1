@@ -48,7 +48,8 @@ h2 {
     font-size: 1.1em;
 }
 
-.question-item input {
+.question-item input,
+.question-item select {
     width: 100%;
     padding: 12px;
     border: 2px solid #e0e0e0;
@@ -57,9 +58,14 @@ h2 {
     transition: border-color 0.3s;
 }
 
-.question-item input:focus {
+.question-item input:focus,
+.question-item select:focus {
     outline: none;
     border-color: #667eea;
+}
+
+.question-item select {
+    cursor: pointer;
 }
 
 #submitBtn {

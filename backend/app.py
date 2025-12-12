@@ -24,7 +24,30 @@ QUESTIONS = [
     {
         "id": 3,
         "question": "Какой ваш любимый язык программирования?",
-        "type": "text"
+        "type": "text",
+        "type": "select",
+        "options": [
+            "C",
+            "C#",
+            "C++",
+            "Go",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "PHP",
+            "Python",
+            "R",
+            "Ruby",
+            "Rust",
+            "Scala",
+            "Swift",
+            "TypeScript",
+            "Visual Basic",
+            "Assembly",
+            "Dart",
+            "MATLAB",
+            "Perl"
+        ]
     },
     {
         "id": 4,
